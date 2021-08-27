@@ -1,28 +1,46 @@
 
 body {        
-    font-family: 'Titillium Web', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    color: blue;
+    
+    
 }
+
+
 
 main {
     padding: 30px;
+    text-align: center;
+    
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: #1f1c1c;
     height: 110px;
     padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: blue
 }
 
 header img {
     height: 100%;
     object-fit: contain;
 }
+
+#content { 
+    width: 600px; 
+    margin: 0 auto; 
+    margin-top: 50px; 
+    border: 1px dashed black;
+    text-align: center; 
+    font-family: 'Helvetica Neue', arial; 
+    font-weight: 100;
+  }
 
 h1 {
     font-size: 1.5rem;
@@ -32,4 +50,65 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+  
 }
+  
+
+
+h1 { font-weight: 100; font-size: 2.5em;}
+    
+    #content { 
+     width: 600px; 
+     margin: 0 auto; 
+     margin-top: 50px; 
+     border: 1px dotted black;
+     text-align: center; 
+     font-family: 'Helvetica Neue', arial; 
+     font-weight: 100;
+   }
+    
+    div.eight-ball {
+      background-color: black;
+      border: 1px solid black;
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    
+    div.answer {
+      background-color: rgb(15, 0, 155);
+      border: 1px solid rgb(15, 0, 155);
+      border-radius: 50%;
+      width: 50%;
+      height: 50%;
+      margin: 25% auto;
+    }
+    
+    p#eight {
+      font-size: 5em;
+      margin: 20% auto;
+      color: white;
+      cursor: pointer;
+    }
+    
+    p#answer {
+      padding: 23px;
+      color: lightblue;
+      letter-spacing: 2px;
+      font-size:18px;
+    }
+    
+    #question {
+      margin: 20px;
+      padding: 10px;
+      width: 400px;
+      font-size:22px;
+    }
+    
+    #info {
+      font-size: 22px;
+    }
+    
